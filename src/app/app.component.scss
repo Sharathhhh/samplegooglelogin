@@ -1,0 +1,33 @@
+mat-card {
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+  padding: 20px;
+}
+
+/* styles.scss or your component's styles */
+.login-button {
+  font-size: 18px;
+  padding: 12px 24px;
+  background-color: #0077b5; /* LinkedIn blue color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+
+  /* Hover effect */
+  &:hover {
+    background-color: #005d9f; /* Darker LinkedIn blue color on hover */
+    transform: scale(1.05);
+  }
+
+  /* Active effect */
+  &:active {
+    transform: scale(0.95);
+  }
+
+  /* Add any additional styles as per your preference */
+}
